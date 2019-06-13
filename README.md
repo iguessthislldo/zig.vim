@@ -12,9 +12,9 @@ File detection and syntax highlighting for the
 
 ## Configuration
 
-To enable automatic formatting on save, add the following configuration to your
-vimrc:
+Automatic formatting on save is enabled by default. To disable this, add the
+following to your vimrc:
 
 ```
-let g:zig_fmt_autosave = 1
+let g:zig_fmt_autosave = 0
 ```
